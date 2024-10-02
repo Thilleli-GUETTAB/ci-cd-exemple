@@ -53,7 +53,7 @@ jobs:
         
       #Step5: 
       - name: Upload production build artifacts
-        uses: actions/upload-artifacts@v3
+        uses: actions/upload-artifacts@v2
         with:
           name: production-build
           path: dist/
